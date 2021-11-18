@@ -1,0 +1,171 @@
+@font-face{
+    font-family:'proximar';
+    src:url(../fonts/proxima-r.woff) format('woff');
+}
+@font-face{
+    font-family:'proximat';
+    src:url(../fonts/proxima-t.woff) format('woff');
+}
+@font-face{
+    font-family:'proximab';
+    src:url(../fonts/proxima-b.woff) format('woff');
+}
+*{ margin: 0; -webkit-box-sizing: border-box; box-sizing: border-box;}
+a{text-decoration: none}
+img{vertical-align: bottom}
+ul{list-style: none; padding: 0}
+body{font: 14px proximar, sans-serif; }
+.clear{clear: both}
+.thin{font-family: proximat, sans-serif}
+h1, h2, h3, h4, b, strong, th{font-family: 'Helvetica', proximab, sans-serif;}
+
+
+.container{  width: 1200px; margin: 0 auto; padding: 0 15px;}
+.row{ margin: 0 -15px;}
+.row:after{ content: ""; display: block; clear: both}
+.col-1{ width: 8.33%; float: left; padding: 0 15px;}
+.col-2{ width: 16.66%; float: left; padding: 0 15px;}
+.col-3{ width: 25%; float: left; padding: 0 15px;}
+.col-4{ width: 33.33%; float: left; padding: 0 15px;}
+.col-5{ width: 41.66%; float: left; padding: 0 15px;}
+.col-6{ width: 50%; float: left; padding: 0 15px;}
+.col-7{ width: 58.33%; float: left; padding: 0 15px;}
+.col-8{ width: 66.66%; float: left; padding: 0 15px;}
+.col-9{ width: 75%; float: left; padding: 0 15px;}
+.col-10{ width: 83.33%; float: left; padding: 0 15px;}
+.col-11{ width: 91.66%; float: left; padding: 0 15px;}
+.col-12{ width: 100%; float: left; padding: 0 15px;}
+[class^="col"]{ min-height: 1px;}
+
+
+.wrap-1{ background:#0f4c75 ; color: #fff; height: 10%;}
+
+
+h1 a{font-size: 20px; color: inherit; line-height: 50px; display: inline-block; float: left}
+.wrap-1 nav{ float: left;}
+.wrap-1 nav ul li{ float: left; margin: 0 10px; }
+.wrap-1 nav ul li a{ display: block; color: inherit; font-size: 18px; line-height: 50px; padding: 0px 10px;}
+.wrap-1 nav ul li a:hover{font-weight: bold; color: white; transform: scale(1.2); border-bottom: 2px solid white;}
+
+
+.wrap-2{ background: white; color: black; padding: 20px 0; height:80%;}
+.portfolio{padding-bottom: 5vh; padding-top: 5vh;}
+.portfolio div{ margin-left: 2vw; margin-right: 2vw;}
+.portfolio div img{width: 300px; height:300px; border: 2px ; border-radius: 50%; margin-bottom: 20px; }
+.port1{display: block; margin: 0 auto; margin-right: auto;}
+.port1 h2{font-size: 25px; text-align: center; text-decoration: none;}
+.port1 p{text-align: center; margin-bottom: 10px; font-size: 20px;}
+.port2 p{font-size: 20px; text-align: justify; margin-top: 0px;}
+
+
+.wrap-3{ background: #0f4c75; color: #fff; padding: 30px 0;}
+.feature{padding: 10px 0;}
+.feature .circle{width: 100px; height: 100px; border: 2px solid; border-radius: 50%; text-align: center; line-height: 96px; font-size: 50px; float: left; margin-right: 10px;}
+.feature h3{; font-size: 16px; line-height: 30px; margin-bottom: 16px }
+.feature p{font-size: 14px; line-height: 20px;}
+
+
+/*  Social Media  */
+.wrap-4{display: inline-block; width: 100%;}
+.social{position: relative; transform: translateX(25%);text-align: center; vertical-align: middle; font-size: 40px; height: 6vh; padding-top: 10px; padding-bottom: 10px;}
+.fa-linkedin{color: #0e76a8}
+.fa-researchgate{color:#00ccbb}
+.fa-twitter{color: #00acee}
+.fa-facebook{color: #3b5998}
+.footer{text-align: -webkit-sticky; height: 1vh; padding-top: 1%;}
+
+
+
+
+
+
+.mob{ float: right; margin-top: 1%; margin-right: 1%; display: none;}
+.mob > span{ display: block; width: 25px; border: 2px solid; margin: 4px}
+.collapse{ padding-bottom: 20px; }
+.img-resp{ max-width: 100%}
+button.act{ }
+.mob span{ -webkit-transition: .5s; transition: .5s }
+
+  
+
+
+
+
+
+@media screen and (max-width:1220px){
+    .container{ width: 960px;}
+    h2{ font-size: 25px}
+}
+@media screen and (max-width:980px){
+.container{ width: 760px;}
+.col-t-1{ width: 8.33%; float: left; padding: 0 15px;}
+.col-t-2{ width: 16.66%; float: left; padding: 0 15px;}
+.col-t-3{ width: 25%; float: left; padding: 0 15px;}
+.col-t-4{ width: 33.33%; float: left; padding: 0 15px;}
+.col-t-5{ width: 41.66%; float: left; padding: 0 15px;}
+.col-t-6{ width: 50%; float: left; padding: 0 15px;}
+.col-t-7{ width: 58.33%; float: left; padding: 0 15px;}
+.col-t-8{ width: 66.66%; float: left; padding: 0 15px;}
+.col-t-9{ width: 75%; float: left; padding: 0 15px;}
+.col-t-10{ width: 83.33%; float: left; padding: 0 15px;}
+.col-t-11{ width: 91.66%; float: left; padding: 0 15px;}
+.col-t-12{ width: 100%; float: left; padding: 0 15px;}
+    .collapse{ display: none; clear: both}
+    .mob{ display: block}
+    .feature p{font-size: 14px; line-height: 15px;}
+}
+@media screen and (max-width:767px){
+    .container{ width: 100%;}
+.col-m-1{ width: 8.33%; float: left; padding: 0 15px;}
+.col-m-2{ width: 16.66%; float: left; padding: 0 15px;}
+.col-m-3{ width: 25%; float: left; padding: 0 15px;}
+.col-m-4{ width: 33.33%; float: left; padding: 0 15px;}
+.col-m-5{ width: 41.66%; float: left; padding: 0 15px;}
+.col-m-6{ width: 50%; float: left; padding: 0 15px;}
+.col-m-7{ width: 58.33%; float: left; padding: 0 15px;}
+.col-m-8{ width: 66.66%; float: left; padding: 0 15px;}
+.col-m-9{ width: 75%; float: left; padding: 0 15px;}
+.col-m-10{ width: 83.33%; float: left; padding: 0 15px;}
+.col-m-11{ width: 91.66%; float: left; padding: 0 15px;}
+.col-m-12{ width: 100%; float: left; padding: 0 15px;} 
+    
+/*
+    .collapse{ display: none; clear: both}
+    .mob{ display: block}
+    */
+    .port1 img{float: none; margin: 0 auto; display: block}
+    .wrap-1 nav ul li{ float: none; text-align: right}
+    .wrap-1 nav ul li a{ line-height: 50px}
+    .hide-m{ display: none}
+    .video p.thin{ clear: both}
+}
+
+@media screen and (max-width:460px){
+    
+    .col-p-4{ width: 33.33% }
+    .col-p-6{ width: 50% }
+    .col-p-9{width: 75% }
+    .col-p-12{ width: 100% }
+    .social{transform: translateX(0%);}
+}
+
+/*
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+*/
+.wrap-4 col-12 col-m-12 col-p-12, .container5 {
+   position: fixed;
+   left: 0;
+   bottom: 1.5%;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
